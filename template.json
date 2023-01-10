@@ -57,13 +57,6 @@
         
                     {
                         "type": "PowerShell",
-                        "name": "installFsLogix",
-                        "runElevated": true,
-                        "runAsSystem": true,
-                        "scriptUri": "https://raw.githubusercontent.com/danielsollondon/azvmimagebuilder/master/solutions/14_Building_Images_WVD/0_installConfFsLogix.ps1"
-                    },
-                    {
-                        "type": "PowerShell",
                         "name": "OptimizeOS",
                         "runElevated": true,
                         "runAsSystem": true,
@@ -76,10 +69,10 @@
                     },
                     {
                         "type": "PowerShell",
-                        "name": "Install Teams",
+                        "name": "Install Language",
                         "runElevated": true,
                         "runAsSystem": true,
-                        "scriptUri": "https://raw.githubusercontent.com/danielsollondon/azvmimagebuilder/master/solutions/14_Building_Images_WVD/2_installTeams.ps1"
+                        "scriptUri": "https://github.com/gr010/avd_pwo/blob/6230ca84f4e9d4f1e59bbaa7705ca87b62055a4b/customize/install-language.ps1"
                     },
                     {
                         "type": "WindowsRestart",
