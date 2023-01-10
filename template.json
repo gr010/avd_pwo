@@ -48,8 +48,8 @@
             "source": {
                 "type": "PlatformImage",
                     "publisher": "MicrosoftWindowsDesktop",
-                    "offer": "windows-10",
-                    "sku": "20h1-ent",
+                    "offer": "office-365",
+                    "sku": "win11-21h2-avd-m365",
                     "version": "latest"
             },
             "customize": [
